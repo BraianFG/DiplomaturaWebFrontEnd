@@ -1,0 +1,13 @@
+.titulo {
+    background-color:#E5E7E9;
+    text-align: center;
+    border-radius:0px 0px 6px 6px;
+    color:#117A65;
+    padding: 13px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-bottom:5px #117A65 solid;
+    border-top: 2px solid #117A65 ;
+    text-transform: uppercase;
+}
