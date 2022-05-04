@@ -1,0 +1,135 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+
+}
+
+a {
+    color: #fff;
+}
+
+.barra {
+    height: 10em;
+    background-color: #E9B0A9;
+}
+
+.barra {
+    height: 10em;
+    background-color: #E9B0A9;
+}
+
+.barra__barra {
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    color: #fff;
+}
+
+.barra__barra-imagen {
+    border-radius: 4.5em;
+}
+
+.barra__barra-titulo{
+    font-size:2em;
+    margin-top:0.1em;
+}
+
+.barra__barra-lista {
+    list-style: none;
+}
+
+.barra__barra-lista-item {
+    margin: 0 1em 0 1em;
+    display: inline;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.barra__barra {
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    color: #fff;
+}
+
+.barra__barra-imagen {
+    border-radius: 4.5em;
+}
+
+.barra__barra-titulo{
+    font-size:2em;
+    margin-top:0.1em;
+}
+
+.barra__barra-lista {
+    list-style: none;
+}
+
+.barra__barra-lista-item {
+    margin: 0 1em 0 1em;
+    display: inline;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta__cuerpo {
+    border: #333 0.1em solid;
+    width: 20em;
+    height: 31em;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.tarjeta__cuerpo-imagen{
+    padding: 0 2em 0em;
+    border-radius:5%;
+}
+
+.tarjeta__cuerpo-titulo {
+    text-align: left;
+    margin-top: 0;
+}
+
+.tarjeta__cuerpo-boton {
+    color: #fff;
+    padding: 0.8em;
+    margin-top: 1em;
+    background-color: #E9B0A9;
+    text-decoration: none;
+}
+
+.tarjeta__cuerpo-texto {
+    padding: 0 1.5em 0.1em;
+    margin-top: 0;
+}
+
+.tarjeta__cuerpo-texto-precio {
+    margin: 1.5em;
+}
+
+.encabezado {
+    display: flex;
+    justify-content:flex-start;
+    background-color: #E9B0A9;
+    margin-top: 4em;
+    height: 7em;
+    margin-bottom: 0em;
+
+}
+
+.encabezado__iconos {
+    justify-content: space-around;
+    display: flex;
+    padding:1em 0em;
+    margin:1em;
+}
