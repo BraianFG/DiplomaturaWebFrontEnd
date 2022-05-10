@@ -1,0 +1,44 @@
+body{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    width: 70%;
+    padding-top:3em;
+}
+
+main{
+    display: grid;
+    grid: 15em / 15em 52.5em auto;
+    grid-gap:2em;
+}
+
+.main , .sliderbar{
+    margin-top: 1em;
+    border: 0.3em solid rgb(226, 51, 51);
+    height: 40em;
+    border-radius: 0.4em;
+}
+
+footer{
+    display: grid;
+    margin-top: 28em;
+    grid-gap:2em;
+    grid: 15em / 15em 52.5em auto;
+}
+
+.footer , .ads{
+    border: 0.3em solid rgb(226, 51, 51);
+    height:2.5em;
+    border-radius: 0.4em;
+}
+
+header{
+    display: grid;
+    grid-gap:1em;
+}
+.header , .nav{
+    border: 0.3em solid rgb(226, 51, 51);
+    height: 2.5em;
+    border-radius: 0.4em;
+}
