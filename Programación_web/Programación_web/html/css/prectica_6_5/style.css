@@ -1,0 +1,62 @@
+body{
+    font-size:16px;
+    padding:0;
+    margin:0;
+}
+
+.barra{
+    background-color: #a6a6f4;
+    height: 10em;
+    border:1em #934343 groove;
+}
+
+.caja{
+    display: flex;
+    border:1em #439350 double;
+    margin-top:1em;
+}
+
+.caja__1-1{
+    width: 20%;
+    height:40em;
+    background-color:#360e4c;
+    border:0.3em #c2a70e dashed;
+    margin-right: 1em;
+}
+
+.caja__1-2{
+    width: 80%;
+    height:40em;
+    background-color:#8b5fa2;
+    border:0.3em #c20e3b dashed;
+}
+
+.caja__subcaja{
+    display: flex;
+    justify-content:space-between;
+    background-color:rgba(161, 192, 77, 0.513);
+    width: 97%;
+    height:24em;
+    margin-top:15em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border:0.3em inset #460b19bd;
+    
+}
+
+.caja__subcaja-sub{
+    display: flex;
+    background-color:#934343;
+    height:20.5em;
+    margin-top: 3em;
+    width:30%;
+    border:0.3em dotted #520416bd;
+}
+
+.encabezado{
+    margin-top:1em;
+    background-color: #d67e31bd;
+    height: 10em;
+    border:1em outset #7f8923bd;
+}
+

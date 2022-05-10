@@ -1,0 +1,43 @@
+body{
+    font-size: 16px;
+    width: 90%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    padding-top:1em;
+}
+
+.header , .footer{
+    display: grid;
+    border: 0.3em solid rgb(226, 51, 51);
+    height: 2.5em;
+    border-radius: 0.4em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto 50em auto;
+    grid-template-rows: 40em;
+    grid-gap: 1em;
+    margin-top: 1em;
+}
+
+.sliderbar , .navigation, .ads , .main{
+    border: 0.3em solid rgb(226, 51, 51);
+    border-radius: 0.4em;
+}
+
+.navigation{
+    height: 2.5em;
+}
+
+.footer{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.main{
+    display: grid;
+    margin-top: 1em;
+    height:35.3em;
+}

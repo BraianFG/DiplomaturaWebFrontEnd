@@ -1,0 +1,43 @@
+body{
+    font-size: 16px;
+    padding-top: 2em;
+    width: 30%;
+    display: block;
+    margin:auto;
+}
+
+#main{
+    display: grid;
+    grid-template-areas:"main main"
+                        "main main__main"
+                        "main__main sliderbar"
+                        "sliderbar ads";               
+    grid-gap: 2em;  
+    margin-top: 2em;           
+}
+
+#header{
+    display: grid;
+    grid-template-areas:"header header"
+                        "header nav"
+                        "nav nav";
+    grid-gap:2em;
+}
+
+.nav, .header{
+    border:0.2em solid rgb(220, 19, 19);
+    border-radius: 0.3em;
+    height: 2em;
+    grid-gap: 2em;  
+
+}
+
+.sliderbar,.ads , .main__main{
+    border:0.2em solid rgb(209, 7, 7);
+    border-radius: 0.3em;
+    height: 2em;
+}
+
+.main__main{
+    height: 20em;
+}
