@@ -1,0 +1,109 @@
+body {
+    font-size: 16px;
+    background-color: #EAEDED;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefefe;
+    top: 0;
+    position: fixed;
+    padding: 1em;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+    color: #585cda;
+}
+
+.main {
+    margin-top: 7em;
+    margin-bottom: 3em;
+}
+
+.navbar__logo {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+.fa-camera {
+    font-size: 2em;
+}
+
+.fa-heart,
+.fa-bookmark,
+.fa-user,
+.fa-ellipsis {
+    font-size: 1.7em;
+    margin-top: 0.7em;
+}
+
+.fa-user {
+    margin-left: 0.2em;
+    margin-right: 0.5em;
+    align-items: center;
+    padding:0.3em;
+}
+
+.fa-heart {
+    margin-top: 0.2em;
+}
+
+.encabezado {
+    height: 2.8em;
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.encabezado__opciones {
+    margin-right: 0.7em;
+    align-items: center;
+}
+
+.encabezado__perfil-nombre {
+    margin-top: 1em;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+
+}
+
+.encabezado__perfil {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.card-img-top {
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
+
+.caja__contenedora {
+    margin-top: 2em;
+}
+
+.card {
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fecha {
+    margin-top: 3em;
+}
+
+.perfil {
+    border: 0.01em solid #111;
+    padding: 0.1em;
+}
