@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #eb9972;
+}
+
+.cuerpo {
+    padding: 1em;
+    background-color: #2d2c49;
+    border-radius: 0.5em;
+    margin-top: 5em;
+}
+
+.button__consulta:hover , .button__consulta:visited{
+    color:#fefefe; 
+}
+
+.navbar {
+    height: 4em;
+    background-color: #b7464e;
+    color: #2d2c49;
+    padding: 0.5em;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    margin-bottom: 3em;
+}
+
+.navbar__imagen {
+    border-radius: 2em;
+}
+
+.botones__play-play {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.fa-stop,
+.fa-pause,
+.fa-play,
+.fa-backward-step,
+.fa-forward-step {
+    font-size: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: #b7464e;
+    padding: 1.5em;
+    border-radius: 2em;
+    color: #2d2c49;
+    width: 1em;
+}
+
+.fa-magnifying-glass{
+    margin-right:0.3em
+}
+
+.tapa__disco {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 60%;
+    height: 25em;
+    align-items: center;
+}
+
+.tapa__disco-imagen {
+    height: 20em;
+    width: 40em;
+}
+
+.encabezado {
+    display: none;
+}
+
+.linea{
+    background-color: #2d2c49;
+    height: 0.3em;
+    margin-top: 8em;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0em;
+}
+
+.consulta{
+    display: block;
+    margin: 10em auto;
+    justify-content: center;
+}
+
+.button{
+    background-color: #b7464e;
+    color: #fefefe;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 30%;
+    text-align:center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3em;
+}
+
+.button__consulta{
+    display: block;
+    margin: 1em auto;
+    justify-content: center;
+    background-color: #b7464e;
+    color: #fefefe;
+    padding: 1em;
+    text-align: center;
+    width: 50%;
+    border-radius: 0.5em;
+    text-decoration: none;
+}
+
+
+.button:hover{
+    color:#fefefe;
+}
+
+.registro__logo{
+    display: none;
+}
+@media(max-width:525px) {
+    .encabezado {
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 0;
+        background-color: #b7464e;
+        height: 4em;
+        color: #2d2c49;
+        font-weight: bold;
+        font-size: 1.3em;
+        border-radius: 0.5em 0.5em 0 0;
+    }
+
+    .encabezado__autor {
+        margin-top: 0.5em;
+    }
+
+    .tapa__disco-imagen {
+        height: 20em;
+        width: 16em;
+
+    }
+
+    .fa-backward-step,
+    .fa-forward-step {
+        display: none;
+    }
+
+    .cuerpo {
+        border-radius: 0 0 0.5em 0.5em;
+    }
+
+    .botones{
+        display: block;
+        width: 100%;
+    }
+
+    .button{
+        display: block;
+        width: 90%;
+        margin: 1em auto;
+        justify-content: center;
+    }
+
+    .linea{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    .registro__logo{
+        max-width: 50em;
+        max-height: 50em;
+        border-radius: 100%;
+        display: block;
+        margin:auto;
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .consulta{
+        margin-top: 3em;
+    }
+
+    .button__consulta{
+        width: 90%;
+        color:#fefefe;
+    }
+}
+
+
