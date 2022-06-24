@@ -19,7 +19,7 @@ function iniciar() {
     if(!(ingreso[ingreso.indexOf("0")] || ingreso[ingreso.indexOf("1")] ||
     ingreso[ingreso.indexOf("2")] || ingreso[ingreso.indexOf("3")] || ingreso[ingreso.indexOf("4")] ||
     ingreso[ingreso.indexOf("5")] || ingreso[ingreso.indexOf("6")] || ingreso[ingreso.indexOf("7")] ||
-    ingreso[ingreso.indexOf("8")] || ingreso[ingreso.indexOf("9")]) >=1){
+    ingreso[ingreso.indexOf("8")] || ingreso[ingreso.indexOf("9")]) >=0){
         document.querySelector(".error3").innerHTML="La contraseña al menos debe tener un número";
     }
 
