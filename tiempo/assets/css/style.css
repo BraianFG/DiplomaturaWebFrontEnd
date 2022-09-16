@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+  padding: 2em;
+}
+
+#ver{
+    display: flex;
+    margin-left: 4em;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20em;
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+    box-shadow: unset;
+    border-bottom:0.1em solid #111;
+}
+
+.title{
+    font-weight: bold;
+    padding: 0 0.5em;
+    font-size: 0.8em;
+}
